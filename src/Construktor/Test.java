@@ -14,10 +14,22 @@ public class Test {
 
 
         System.out.println("polymorpf");
+
         A a = new C();
+
 
         System.out.println("Classname = "+a.getClass().getSimpleName());
         System.out.println(a);
+
+
+        System.out.println("a method test");
+
+        a.aMethod();
+
+
+        System.out.println("String spielereien");
+        String str = "A.B.C!";
+        System.out.println(str.replaceAll(".", ",").replace("!","?"));
 
     }
 }

@@ -14,8 +14,14 @@ public class C extends B {
         System.out.println("String constructor von Klasse C");
     }
 
-
-    public  void aMethod(){
-        System.out.println("class C method");
+    @Override
+    public void aMethod(){
+        System.out.println("Class C Method");
     }
+
+
+    public void cMethod(){
+        System.out.println("Class C only Method");
+    }
+
 }
